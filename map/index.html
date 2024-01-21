@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Map China</title>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@7.4.0/ol.min.css" />
+   <style>
+      h1 {
+         text-align: center;
+         margin: 4vw 0 3vw;
+      }
+      #map {
+         border: 3px solid #a19f9f;
+         width: 90%;
+         height: 500px;
+         margin: auto;
+         /*pointer-events: none;*/
+      }
+   </style>
+
+   <script src="https://cdn.jsdelivr.net/npm/ol@7.4.0/dist/ol.js"></script>
+   <!--
+      To implement the project, I used information from open sources on the reddit.com forum https://www.reddit.com/r/webdev/comments/7992cu/embedded_maps_in_china/?rdt=64469
+   -->
+</head>
+<body>
+   <div class="title">
+      <h1>Built-in map of China based on the Chinese web service Baidu</h1>
+   </div>
+   <div class="textwidget">
+      <div id="map">
+
+      </div>
+   </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
